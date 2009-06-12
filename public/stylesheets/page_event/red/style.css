@@ -23,7 +23,7 @@
 	border-collapse: collapse;
 }
 .calendar td, .calendar th {
-	font: 76%/1 "Lucida Grande", Verdana;
+	font: 11px sans-serif;
 }
 .calendar td {
 	width: 9em;
@@ -60,13 +60,16 @@
 
 /* @group Basic Calendar Styling */
 
+.monthName {
+        color: #FFF;
+}
 .monthHeader {
 	font-size: 1.3em;
 	text-transform: uppercase;
-	background: #FF0000;
+	background: #666;
 }
 .dayName {
-	background: #A3210B;
+	background: #999;
 	color: #fff;
 }
 .dayName th {
@@ -86,7 +89,6 @@
 
 .eventContainer {
 	padding: 2.5em 3px 3px;
-	font-size: 80%;
 	line-height: 1.2;
 }
 .event {
@@ -94,7 +96,7 @@
 	text-indent: -1em;
 }
 .time {
-	background: #fcff00;
+	background: #ff6;
 	text-transform: lowercase;
 	padding: .1em .2em;
 }
@@ -115,16 +117,15 @@
 	color: #333;
 }
 .specialDay .day {
-	background: #fff2f2;
+	background: #fff;
 }
 .today .day {
-	background: #fcff00;
+	background: #FFC;
 }
 .today .date {
-	background: #afaf00;
+	background: #ff6;
 	font-weight: bold;
-	border-color: #171604;
-	color: #171604;
+	color: #000;
 }
 .today .time {
 	background: #f00;
