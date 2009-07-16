@@ -13,6 +13,12 @@
 /* @group Calendar Setup */
 
 .calendar {
+        background: white;
+}
+.calendar, .calendar td, .calendar th, .calendar tr {
+  vertical-align: top;
+}
+.calendar {
 	margin: 0 auto;
 }
 .calendar tbody {

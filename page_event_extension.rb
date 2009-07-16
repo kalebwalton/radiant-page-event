@@ -15,10 +15,10 @@ class PageEventExtension < Radiant::Extension
 		Page.send :include, PageEvent::PageExtensions
 		Page.send :include, PageEventTags
 		admin.page.edit.add :layout_row, "edit_page_event"
-    admin.tabs.add "Page Events", "/admin/page_events", :after => "Pages", :visibility => [:all]
+    #admin.tabs.add "Page Events", "/admin/page_events", :after => "Pages", :visibility => [:all]
   end
   
   def deactivate
-    admin.tabs.remove "Page Events"
+    #admin.tabs.remove "Page Events"
   end
 end
